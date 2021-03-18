@@ -9,8 +9,8 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" type="text/css" href="../assets/main/css/main.css%3Fv=73f2b6ee03.css" />
-    <noscript><link rel="stylesheet" href="../assets/main/css/noscript.css%3Fv=73f2b6ee03.css" /></noscript>
+    <link rel="stylesheet" type="text/css" href="../assets/main/css/main.css%3Fv=4b9cd673df.css" />
+    <noscript><link rel="stylesheet" href="../assets/main/css/noscript.css%3Fv=4b9cd673df.css" /></noscript>
 
     <link rel="canonical" href="index.html" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
@@ -37,7 +37,7 @@
     <meta name="twitter:data1" content="Ghost" />
     <meta name="twitter:label2" content="Filed under" />
     <meta name="twitter:data2" content="Getting Started" />
-    <meta name="twitter:site" content="ghost" />
+    <meta name="twitter:site" content="@ghost" />
     <meta name="twitter:creator" content="ghost" />
     <meta property="og:image:width" content="2000" />
     <meta property="og:image:height" content="1216" />
@@ -90,10 +90,74 @@
 }
     </script>
 
-    <meta name="generator" content="Ghost 3.41" />
+    <meta name="generator" content="Ghost 4.0" />
     <link rel="alternate" type="application/rss+xml" title="Shreenabh Agrawal" href="../rss/index.html" />
+    <script defer src="https://unpkg.com/@tryghost/portal@~1.0.0/umd/portal.min.js" data-ghost="http://localhost:2368/"></script><style> .gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
 
-    <style>#wrapper>.bg {background-image: url(../assets/images/overlay.png%3Fv=73f2b6ee03),linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url("https://static.ghost.org/v3.0.0/images/publication-cover.png") }</style>
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style><style>:root {--ghost-accent-color: #15171A;}</style>
+
+    <style>#wrapper>.bg {background-image: url(../assets/images/overlay.png%3Fv=4b9cd673df),linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url("https://static.ghost.org/v3.0.0/images/publication-cover.png") }</style>
 
 </head>
 <body class="is-preload post-template tag-getting-started">
@@ -135,7 +199,7 @@
         <div class="image main"><img src="https://static.ghost.org/v3.0.0/images/creating-a-custom-theme.png" alt="Creating a custom theme" /></div>
 
         <div class="content">
-            <h2 id="ghost-themes">Ghost themes</h2><p>Ghost comes with a default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for most purposes.</p><p>If you need something a little more customised, it's entirely possible to build on top of existing open source themes, or to build your own from scratch. Rather than giving you a few basic settings which act as a poor proxy for code, we just let you write code.</p><h2 id="marketplace">Marketplace</h2><p>There are a huge range of both free and premium pre-built themes which you can download from the <a href="https://ghost.org/marketplace/">Ghost Theme Marketplace</a>:</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://static.ghost.org/v3.0.0/images/theme-marketplace.png" class="kg-image" alt="Ghost theme marketplace screenshot"><figcaption>Anyone can write a completely custom Ghost theme with some solid knowledge of HTML and CSS</figcaption></figure><h2 id="theme-development">Theme development</h2><p>Ghost themes are written with a templating language called handlebars, which has a set of dynamic helpers to insert your data into template files. For example: <code>{{author.name}}</code> outputs the name of the current author.</p><p>The best way to learn how to write your own Ghost theme is to have a look at <a href="https://github.com/TryGhost/Casper">the source code for Casper</a>, which is heavily commented and should give you a sense of how everything fits together.<br></p><ul><li><code>default.hbs</code> is the main template file, all contexts will load inside this file unless specifically told to use a different template.</li><li><code>post.hbs</code> is the file used in the context of viewing a post.</li><li><code>index.hbs</code> is the file used in the context of viewing the home page.</li><li>and so on</li></ul><p>We've got <a href="https://ghost.org/docs/themes/">full and extensive theme documentation</a> which outlines every template file, context and helper that you can use. You can also get started with our useful <a href="https://github.com/TryGhost/Starter/">starter theme</a>, which includes the most common foundations and components required to build your own theme.</p><blockquote>If you want to chat with other people making Ghost themes to get any advice or help, there's also a <strong>themes</strong> section on our <a href="https://forum.ghost.org/c/themes">public Ghost forum</a>.</blockquote>
+            <h2 id="ghost-themes">Ghost themes</h2><p>Ghost comes with a default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for most purposes.</p><p>If you need something a little more customised, it's entirely possible to build on top of existing open source themes, or to build your own from scratch. Rather than giving you a few basic settings which act as a poor proxy for code, we just let you write code.</p><h2 id="marketplace">Marketplace</h2><p>There are a huge range of both free and premium pre-built themes which you can download from the <a href="https://ghost.org/marketplace/">Ghost Theme Marketplace</a>:</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://static.ghost.org/v3.0.0/images/theme-marketplace.png" class="kg-image" alt="Ghost theme marketplace screenshot" loading="lazy"><figcaption>Anyone can write a completely custom Ghost theme with some solid knowledge of HTML and CSS</figcaption></figure><h2 id="theme-development">Theme development</h2><p>Ghost themes are written with a templating language called handlebars, which has a set of dynamic helpers to insert your data into template files. For example: <code>{{author.name}}</code> outputs the name of the current author.</p><p>The best way to learn how to write your own Ghost theme is to have a look at <a href="https://github.com/TryGhost/Casper">the source code for Casper</a>, which is heavily commented and should give you a sense of how everything fits together.<br></p><ul><li><code>default.hbs</code> is the main template file, all contexts will load inside this file unless specifically told to use a different template.</li><li><code>post.hbs</code> is the file used in the context of viewing a post.</li><li><code>index.hbs</code> is the file used in the context of viewing the home page.</li><li>and so on</li></ul><p>We've got <a href="https://ghost.org/docs/themes/">full and extensive theme documentation</a> which outlines every template file, context and helper that you can use. You can also get started with our useful <a href="https://github.com/TryGhost/Starter/">starter theme</a>, which includes the most common foundations and components required to build your own theme.</p><blockquote>If you want to chat with other people making Ghost themes to get any advice or help, there's also a <strong>themes</strong> section on our <a href="https://forum.ghost.org/c/themes">public Ghost forum</a>.</blockquote>
         </div>
 
 
@@ -182,13 +246,13 @@
     </div>
 
 
-    <script src="../assets/main/js/jquery.min.js%3Fv=73f2b6ee03"></script>
-    <script src="../assets/main/js/jquery.scrollex.min.js%3Fv=73f2b6ee03"></script>
-    <script src="../assets/main/js/jquery.scrolly.min.js%3Fv=73f2b6ee03"></script>
-    <script src="../assets/main/js/browser.min.js%3Fv=73f2b6ee03"></script>
-    <script src="../assets/main/js/breakpoints.min.js%3Fv=73f2b6ee03"></script>
-    <script src="../assets/main/js/util.js%3Fv=73f2b6ee03"></script>
-    <script src="../assets/main/js/main.js%3Fv=73f2b6ee03"></script>
+    <script src="../assets/main/js/jquery.min.js%3Fv=4b9cd673df"></script>
+    <script src="../assets/main/js/jquery.scrollex.min.js%3Fv=4b9cd673df"></script>
+    <script src="../assets/main/js/jquery.scrolly.min.js%3Fv=4b9cd673df"></script>
+    <script src="../assets/main/js/browser.min.js%3Fv=4b9cd673df"></script>
+    <script src="../assets/main/js/breakpoints.min.js%3Fv=4b9cd673df"></script>
+    <script src="../assets/main/js/util.js%3Fv=4b9cd673df"></script>
+    <script src="../assets/main/js/main.js%3Fv=4b9cd673df"></script>
 
     
 
