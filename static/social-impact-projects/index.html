@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Social Impact Projects</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preload" href="../assets/css/app.css?v=70061487e1" as="style" />
+    <link rel="preload" href="../assets/js/manifest.js?v=70061487e1" as="script" />
+    <link rel="preload" href="../assets/js/vendor/content-api.min.js?v=70061487e1" as="script" />
+    <link rel="preload" href="../assets/js/vendor.js?v=70061487e1" as="script" />
+    <link rel="preload" href="../assets/js/app.js?v=70061487e1" as="script" />
+    <link rel="preconnect" href="https://polyfill.io">
+    <link rel="dns-prefetch" href="https://polyfill.io">
+
+      <link rel="preload" href="../assets/css/post.css?v=70061487e1" as="style" />
+  <link rel="preload" href="../assets/js/post.js?v=70061487e1" as="script" />
+
+
+    <style>
+      /* These font-faces are here to make fonts work if the Ghost instance is installed in a subdirectory */
+
+      /* source-sans-pro-regular */
+      @font-face {
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: local('SourceSansPro-Regular'),
+            url("../assets/fonts/source-sans-pro/latin/source-sans-pro-regular.woff2?v=70061487e1") format('woff2'),
+            url("../assets/fonts/source-sans-pro/latin/source-sans-pro-regular.woff?v=70061487e1") format('woff');
+      }
+
+      /* source-sans-pro-600 */
+      @font-face {
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: local('SourceSansPro-SemiBold'),
+            url("../assets/fonts/source-sans-pro/latin/source-sans-pro-600.woff2?v=70061487e1") format('woff2'),
+            url("../assets/fonts/source-sans-pro/latin/source-sans-pro-600.woff?v=70061487e1") format('woff');
+      }
+
+      /* source-sans-pro-700 */
+      @font-face {
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: local('SourceSansPro-Bold'),
+            url("../assets/fonts/source-sans-pro/latin/source-sans-pro-700.woff2?v=70061487e1") format('woff2'),
+            url("../assets/fonts/source-sans-pro/latin/source-sans-pro-700.woff?v=70061487e1") format('woff');
+      }
+
+      /* iconmoon */
+      @font-face {
+        font-family: 'icomoon';
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+        src: url("../assets/fonts/icomoon/icomoon.eot?101fc3?v=70061487e1");
+        src: url("../assets/fonts/icomoon/icomoon.eot?101fc3") format('embedded-opentype'),
+        url("../assets/fonts/icomoon/icomoon.ttf?101fc3?v=70061487e1") format('truetype'),
+        url("../assets/fonts/icomoon/icomoon.woff?101fc3?v=70061487e1") format('woff'),
+        url("../assets/fonts/icomoon/icomoon.svg?101fc3") format('svg');
+      }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/app.css?v=70061487e1" media="screen" />
+
+      <link rel="stylesheet" type="text/css" href="../assets/css/post.css?v=70061487e1" media="screen" />
+
+
+    
+
+    <link rel="icon" href="../favicon.png" type="image/png" />
+    <link rel="canonical" href="http://localhost:2368/social-impact-projects/" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <link rel="amphtml" href="http://localhost:2368/social-impact-projects/amp/" />
+    
+    <meta property="og:site_name" content="Shreenabh Agrawal" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Social Impact Projects" />
+    <meta property="og:description" content="Social impact projects that have impacted more than 100,000 people over the past 4 years." />
+    <meta property="og:url" content="http://localhost:2368/social-impact-projects/" />
+    <meta property="og:image" content="http://localhost:2368/content/images/2021/05/Screenshot-2021-05-18-at-10.48.03-PM.png" />
+    <meta property="article:published_time" content="2021-05-18T15:54:30.000Z" />
+    <meta property="article:modified_time" content="2021-05-18T17:18:15.000Z" />
+    <meta property="article:tag" content="Projects" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Social Impact Projects" />
+    <meta name="twitter:description" content="Social impact projects that have impacted more than 100,000 people over the past 4 years." />
+    <meta name="twitter:url" content="http://localhost:2368/social-impact-projects/" />
+    <meta name="twitter:image" content="http://localhost:2368/content/images/2021/05/Screenshot-2021-05-18-at-10.48.03-PM.png" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Shreenabh Agrawal" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Projects" />
+    <meta name="twitter:site" content="@ShreenabhA" />
+    <meta property="og:image:width" content="836" />
+    <meta property="og:image:height" content="330" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Shreenabh Agrawal",
+        "url": "http://localhost:2368/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http://localhost:2368/favicon.png"
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Shreenabh Agrawal",
+        "url": "http://localhost:2368/author/shreenabh/",
+        "sameAs": []
+    },
+    "headline": "Social Impact Projects",
+    "url": "http://localhost:2368/social-impact-projects/",
+    "datePublished": "2021-05-18T15:54:30.000Z",
+    "dateModified": "2021-05-18T17:18:15.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://localhost:2368/content/images/2021/05/Screenshot-2021-05-18-at-10.48.03-PM.png",
+        "width": 836,
+        "height": 330
+    },
+    "keywords": "Projects",
+    "description": "Social impact projects that have impacted more than 100,000 people over the past 4 years.",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:2368/"
+    }
+}
+    </script>
+<style>:root {--ghost-accent-color: #15171A;}</style>
+    <meta name="generator" content="Ghost 4.22" />
+    <link rel="alternate" type="application/rss+xml" title="Shreenabh Agrawal" href="http://localhost:2368/rss/" />
+
+    <script>
+      // @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+      const ghostHost = "http://localhost:2368"
+      // @license-end
+    </script>
+  </head>
+  <body class="post-template tag-projects">
+    
+
+
+
+  
+<header class="m-header with-picture js-header">
+  <div class="m-mobile-topbar" data-aos="fade-down">
+    <button class="m-icon-button in-mobile-topbar js-open-menu" aria-label="Open menu">
+      <span class="icon-menu" aria-hidden="true"></span>
+    </button>
+      <a href="http://localhost:2368" class="m-site-name in-mobile-topbar">
+        Shreenabh Agrawal
+      </a>
+    <button class="m-icon-button in-mobile-topbar js-open-search" aria-label="Open search">
+      <span class="icon-search" aria-hidden="true"></span>
+    </button>
+  </div>
+
+  <div class="m-menu js-menu">
+    <button class="m-icon-button outlined as-close-menu js-close-menu" aria-label="Close menu">
+      <span class="icon-close"></span>
+    </button>
+    <div class="m-menu__main" data-aos="fade-down">
+      <div class="l-wrapper">
+        <div class="m-nav js-main-nav">
+          <nav class="m-nav__left js-main-nav-left" role="navigation" aria-label="Main menu">
+            <ul>
+                <li class="only-desktop">
+                  <a href="http://localhost:2368" class="m-site-name in-desktop-menu">
+                    Shreenabh Agrawal
+                  </a>
+                </li>
+                
+    <li class="nav-about-me">
+      <a href="../resume/index.html">About Me</a>
+    </li>
+    <li class="nav-projects">
+      <a href="../tag/projects/index.html">Projects</a>
+    </li>
+    <li class="nav-awards-and-recognition">
+      <a href="../tag/awards-and-recognition/index.html">Awards and Recognition</a>
+    </li>
+    <li class="nav-contact">
+      <a href="http://localhost:2373/contact/">Contact</a>
+    </li>
+
+              <li class="submenu-option js-submenu-option">
+                <button class="m-icon-button in-menu-main more js-toggle-submenu" aria-label="Open submenu">
+                  <span class="icon-more" aria-hidden="true"></span>
+                </button>
+                <div class="m-submenu js-submenu">
+                  <div class="l-wrapper in-submenu">
+                    <section class="m-recent-articles">
+                      <h3 class="m-submenu-title in-recent-articles">Recent articles</h3>
+                          <div class="glide js-recent-slider">
+                            <div class="glide__track" data-glide-el="track">
+                              <div class="glide__slides">
+                                <div class="glide__slide">
+                                  <a href="../diana-award/index.html" class="m-recent-article">
+                                    <div class="m-recent-article__picture ">
+                                        <img src="../content/images/size/w300/2021/07/Twitter.png" loading="lazy" alt="">
+                                    </div>
+                                    <h3 class="m-recent-article__title js-recent-article-title" title="The Diana Award">
+                                      The Diana Award
+                                    </h3>
+                                    <span class="m-recent-article__date">4 months ago</span>
+                                  </a>
+                                </div>
+                                <div class="glide__slide">
+                                  <a href="../papers-and-publications/index.html" class="m-recent-article">
+                                    <div class="m-recent-article__picture ">
+                                        <img src="../content/images/size/w300/2021/05/Screenshot-2021-05-18-at-11.01.56-PM.png" loading="lazy" alt="">
+                                    </div>
+                                    <h3 class="m-recent-article__title js-recent-article-title" title="Papers and publications">
+                                      Papers and publications
+                                    </h3>
+                                    <span class="m-recent-article__date">6 months ago</span>
+                                  </a>
+                                </div>
+                                <div class="glide__slide">
+                                  <a href="../national-and-international-awards/index.html" class="m-recent-article">
+                                    <div class="m-recent-article__picture ">
+                                        <img src="../content/images/size/w300/2021/05/Screenshot-2021-05-18-at-10.52.13-PM.png" loading="lazy" alt="">
+                                    </div>
+                                    <h3 class="m-recent-article__title js-recent-article-title" title="National and International Awards">
+                                      National and International Awards
+                                    </h3>
+                                    <span class="m-recent-article__date">6 months ago</span>
+                                  </a>
+                                </div>
+                                <div class="glide__slide">
+                                  <a href="index.html" class="m-recent-article">
+                                    <div class="m-recent-article__picture ">
+                                        <img src="../content/images/size/w300/2021/05/Screenshot-2021-05-18-at-10.48.03-PM.png" loading="lazy" alt="">
+                                    </div>
+                                    <h3 class="m-recent-article__title js-recent-article-title" title="Social Impact Projects">
+                                      Social Impact Projects
+                                    </h3>
+                                    <span class="m-recent-article__date">6 months ago</span>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </section>
+                    <section class="m-tags">
+                      <h3 class="m-submenu-title">Tags</h3>
+                        <ul>
+                            <li>
+                              <a href="../tag/awards-and-recognition/index.html">Awards and Recognition</a>
+                            </li>
+                            <li>
+                              <a href="../tag/projects/index.html">Projects</a>
+                            </li>
+                        </ul>
+                    </section>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </nav>
+          <div class="m-nav__right">
+            <button class="m-icon-button in-menu-main js-open-search" aria-label="Open search">
+              <span class="icon-search" aria-hidden="true"></span>
+            </button>
+            <div class="m-toggle-darkmode js-tooltip" data-tippy-content="Toggle dark mode" tabindex="0">
+              <label for="toggle-darkmode" class="sr-only">
+                Toggle dark mode
+              </label>
+              <input id="toggle-darkmode" type="checkbox" class="js-toggle-darkmode">
+              <div>
+                <span class="icon-moon moon" aria-hidden="true"></span>
+                <span class="icon-sunny sun" aria-hidden="true"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+
+<main class="main-wrap">
+    
+  <section class="m-hero with-picture" data-aos="fade">
+    <div class="m-hero__picture in-post">
+      <img
+        srcset="../content/images/size/w300/2021/05/Screenshot-2021-05-18-at-10.48.03-PM.png8.03-PM.png 300w../content/images/size/w600/2021/05/Screenshot-2021-05-18-at-10.48.03-PM.png48.03-PM.png 600../content/images/size/w1000/2021/05/Screenshot-2021-05-18-at-10.48.03-PM.png.48.03-PM.png 100../content/images/size/w2000/2021/05/Screenshot-2021-05-18-at-10.48.03-PM.png0.48.03-PM.png 2000w
+        "
+        sizes="(max-width: 600px) 600px, (max-width: 1000px) 1000px, 2000px"
+        src="../content/images/size/w1000/2021/05/Screenshot-2021-05-18-at-10.48.03-PM.png"
+        alt=""
+      />
+    </div>
+    </section>
+  
+  <article>
+    <div class="l-content in-post">
+        <div class="l-wrapper in-post  js-aos-wrapper" data-aos="fade-up"
+          data-aos-delay="300">
+          <div
+            class="l-post-content js-progress-content">
+            <header class="m-heading">
+              <h1 class="m-heading__title in-post">Social Impact Projects</h1>
+              <div class="m-heading__meta">
+                  <a href="http://localhost:2368/tag/projects/" class="m-heading__meta__tag">Projects</a>
+                  <span class="m-heading__meta__divider" aria-hidden="true">&bull;</span>
+                <span class="m-heading__meta__time">May 18, 2021</span>
+              </div>
+            </header>
+            <div class="pos-relative js-post-content">
+              <div class="m-share">
+                <div class="m-share__content js-sticky">
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/social-impact-projects/"
+                    class="m-icon-button filled in-share" target="_blank" rel="noopener" aria-label="Facebook">
+                    <span class="icon-facebook" aria-hidden="true"></span>
+                  </a>
+                  <a href="https://twitter.com/intent/tweet?text=Social%20Impact%20Projects&url=http://localhost:2368/social-impact-projects/"
+                    class="m-icon-button filled in-share" target="_blank" rel="noopener" aria-label="Twitter">
+                    <span class="icon-twitter" aria-hidden="true"></span>
+                  </a>
+                  <button class="m-icon-button filled in-share progress js-scrolltop" aria-label="Scroll to top">
+                    <span class="icon-arrow-top" aria-hidden="true"></span>
+                    <svg aria-hidden="true">
+                      <circle class="progress-ring__circle js-progress" fill="transparent" r="0" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <h2 id="novel-and-effective-tridax-procumbens-extract-for-protection-against-yellow-mosaic-virus-in-abelmoschus-esculentus-okra">Novel and Effective Tridax procumbens Extract for Protection against Yellow Mosaic Virus in Abelmoschus esculentus (Okra)</h2><p>Yellow mosaic virus disease causes 50%-94% losses annually in Abelmoschus esculentus crop. It causes stunted growth, shrinkage of leaves, discoloration and yield loss. In India, this is an annual feature and crop management techniques such as hybrid seeds, pesticides, mutations have failed. Using Tridax procumbens extract, I tested the hypothesis that this extract will inhibit the virus and enhance yield. Abelmoschus esculentus (Okra) seeds were sown in 42 sq.m area. Tridax procumbens extract was made by crushing the entire plant. The extract was diluted in water in 12.5%, 20%, 40%, and 60 % concentrations and sprayed on 40 Okra plants (10 plants per concentration) fortnightly. 10 plants were control plants. Plant height, leaf laminar area, number of fruits, leaf and fruit color of Okra plants was recorded every 15 days. Data were analyzed using ANOVA and Post Hoc Tukey test. Secondary metabolites’ analysis of extract done using Thin Layered Chromatography showed the presence of phenols, terpenoids, saponins, and flavonoids. Compared to control plants (mean height 26.8 cm) 20% concentration spray squirted highest plant height (mean height =45.8 cm). Similar results were obtained for laminar leaf area for control plants (mean=215.8 sq.cm) 20% concentration (mean=332.80 sq.cm); Number of fruit for control plants (mean=11.4) 20% concentration (mean=21.3). Control plants showed discoloration whereas experimental plants were dark green. This study showed that Tridax procumbens extract inhibited Yellow Mosaic Virus and improved yield of Okra by 87%. It is zero cost and safe as it is a wild plant with antioxidant, antibiotic, immunomodulatory properties.</p><figure class="kg-card kg-bookmark-card kg-card-hascaption"><a class="kg-bookmark-container" href="https://abstracts.societyforscience.org/Home/FullAbstract?Category&#x3D;Any%20Category&amp;Finalist&#x3D;Agrawal&amp;AllAbstracts&#x3D;True&amp;FairCountry&#x3D;Any%20Country&amp;FairState&#x3D;Any%20State&amp;Keywords&#x3D;Tridax&amp;ProjectId&#x3D;18959"><div class="kg-bookmark-content"><div class="kg-bookmark-title">Full Abstract</div><div class="kg-bookmark-description"></div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://abstracts.societyforscience.org/Content/favicon.ico" alt=""><span class="kg-bookmark-author">Society for Science header image</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://abstracts.societyforscience.org/Content/images/logo.png" alt=""></div></a><figcaption>My project in ISEF Project Database</figcaption></figure><hr><h2 id="oldy-goldy-club">Oldy-Goldy Club</h2><p>When I see old people around me looking helplessly towards the young not for their money or protection but for a little time to sit with them, hold their hands and listen to them, I feel very sad. Why are the hands that rocked our cradle and held us strongly so that we may live happily shaking so much? The question is what can we do to repay them for what they have done for us? Is earning money and keeping a nurse for them our only way to express our gratitude and love for them?</p><p>When I see the old retired professionals who were<br>respected throughout their life for their work and wisdom<br>looking for someone who could just notice them, I feel<br>sad. The vast ocean of knowledge that they hold in their minds and hearts is ready to overflow and guide the paths of the struggling youth; but where is that youth? Why are the fingers that wrote the policies for the nation and led the country to the acme of development searching in dim light a finger to hold? The question is what can we do to harness the energy they still have to guide the nation to a brighter path?</p><p>When I see an old grandmother shedding tears silently because when she happily rushed to the kitchen to make a delicacy for her grandchildren she was asked to sit and relax, I feel sad. Why is she not allowed to cook the food that not only her children but their friends enjoyed too? The question is what can we do to let them live naturally and help them to feel an important part of the family?</p><p>I wish to change this helpless situation of the old people all over the world. I have tried to bring about a small change in the town where I stay to see if my thought can be converted into fruitful action. When I saw the idea working and the grandparents actually feeling ʻGrandʼ, my happiness knew no bounds.<br>One fine day when I was visiting my friend, I saw his younger sister and her friends</p><p>sitting near his grandfather and all of them were laughing merrily. My friend told me that every evening his grandfather took a one hour session for the children of the colony which included yoga, meditation, story-telling and vocabulary building. I was amazed. I came home and chalked out a plan of action and then visited sixteen libraries in my town. I requested them to allow me to conduct one life skills session every week. They readily agreed as the footfall in the libraries has been decreasing day by day due to the advent of internet. I then approached the retired people in my town and requested them to spend time with the young children of our town every weekend. Some of them showed a bit of hesitation but then big smiles adorned their faces. Now with two main tasks accomplished I turned my attention to the most difficult task; the task of convincing the parents to send their children for these life skills sessions. But believe me, they all readily agreed. The big day arrived and our first session started. There was sheer happiness all around. The ʻgoldy- oldiesʼ-thatʼs what I call them were looking ten years younger! They had the reins in their hands once again.</p><p>I wish to bring this change in every nook and corner of the world. I am sure that the clueless young generation will get a guided path to walk upon. There can be ʻoldy-goldyʼ clubs of old scientists for the teenagers and the college students to guide them on innovative projects. There can be ʻoldy-goldyʼ clubs of grandmothers for the young daughters who want to equip themselves for a happy married life. There can be ʻoldy-goldyʼ clubs of artists to colour the life of the young.</p><p>I wish I could start ʻoldy-goldyʼ clubs all over the world not only to make my oldies live healthy and happy but in turn help the stressed, disoriented, self centered, unsympathetic youth live their life with internal satisfaction. Only the experienced can shape the inexperienced!</p><p><a href="https://www.goipeace.or.jp/wp/wp-content/uploads/2016/09/2018_winner_1C-e.pdf">https://www.goipeace.or.jp/wp/wp-content/uploads/2016/09/2018_winner_1C-e.pdf</a></p><hr><h2 id="neer-setu-farming-an-innovation">Neer Setu Farming: an Innovation</h2><p>A jute reinforced farming method to save crops from drought.</p><p>The model presents an innovative method of farming by using Jute fibers to help the farmers and in turn reduce the menace of farmer suicides not only in Maharashtra and Karnataka but pan India. Using Jute reinforcement will help in water retention in the soil, lower the evaporation rate, cool the upper surface of the soil layer, prevent soil erosion and above all increase the productivity of the crop with less water consumption.</p><p>Jute fibers have been selected because Jute fibers show good absorption capacity due to the presence of numerous polar-OH groups. Their moisture regain value is upto 36% at 100% relative humidity. The water holding capacity of jute is about 500% whereas its ignition temperature is about 193 degrees. The high specific heat value (1360 J/kg/K) results in good thermal insulation.</p><p>Jute fibers are not only eco-friendly, bio-degradable, cost effective but also soil friendly as they nurture the soil and help in enhancing the fertility of the soil.</p><p>The model was tested at the Raman Science Centre Innovation Hub and was found to increase the productivity of wheat crop by 300% and reduce the water consumption by 400%. The test was conducted by taking a bamboo mesh tray filled with soil in which wheat grains were sown and watered. The jute mesh was placed at the boundary inside the tray  whereas the centre portion of the tray was not covered with jute mesh. It was seen that on the 3<sup>rd</sup> day the portion covered with jute mesh showed small shoots of 6 cm length whereas the portion not covered with jute did not show any sign of the crop. This model was presented at CSIR-NEERI.</p><figure class="kg-card kg-bookmark-card kg-card-hascaption"><a class="kg-bookmark-container" href="https://innovate.mygov.in/innovation/neer-setu-farming-an-innovation/"><div class="kg-bookmark-content"><div class="kg-bookmark-title">NEER SETU FARMING: AN INNOVATION</div><div class="kg-bookmark-description">Title: Neer Setu Farming : An innovation Problem: Due to..</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://innovate.mygov.in/wp-content/uploads/2016/11/favicon.ico" alt=""><span class="kg-bookmark-author">NEER SETU FARMING: AN INNOVATION</span><span class="kg-bookmark-publisher">Ansh Sinha</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://innovate.mygov.in/wp-content/uploads/2016/09/home-banner.jpg" alt=""></div></a><figcaption>Published at the My Gov Innovate India platform</figcaption></figure><hr><h3 id="triple-lock-life-saving-bore-hole-protection-lid">Triple lock life saving bore hole protection lid </h3><p>An innovative product to prevent children from falling into unattended bore wells in farms and elsewhere.</p><p>A child falling into open unattended bore wells has become a common scenario. Hence, it is imperative that a life saving bore well lid be designed such that the loss of life can be prevented. The present invention specifically relates to the field of social cognizance and human safety. It attempts to introduce an innovative method of designing, manufacturing and installing a Triple lock life saving bore well protection lid applicable for commercial and non-commercial spectrum usage in human safety. The Triple lock life saving bore well protection lid presents a very cost effective solution to save the huge loss of life due to open bore wells.</p><p><a href="http://localhost:2373/social-impact-projects/www.ipindia.nic.in/writereaddata/Portal/IPOJournal/1_353_1/part1.pdf">www.ipindia.nic.in/writereaddata/Portal/IPOJournal/1_353_1/part1.pdf</a></p>
+                <section class="m-tags in-post">
+                  <h3 class="m-submenu-title">Tags</h3>
+                  <ul>
+                      <li>
+                        <a href="../tag/projects/index.html" title="Projects">Projects</a>
+                      </li>
+                  </ul>
+                </section>
+            </div>
+          </div>
+        </div>
+        <section class="m-author">
+          <div class="m-author__content">
+            <div class="m-author__picture">
+              <a href="http://localhost:2368/author/shreenabh/" class="m-author-picture" aria-label="Shreenabh Agrawal">
+                  <div style="background-image: url(../assets/images/default-avatar-square-small.jpg?v=70061487e1);"></div>
+              </a>
+            </div>
+            <div class="m-author__info">
+              <h4 class="m-author__name">
+                <a href="http://localhost:2368/author/shreenabh/">Shreenabh Agrawal</a>
+              </h4>
+              <ul class="m-author-links">
+              </ul>
+            </div>
+          </div>
+        </section>
+          <section class="m-recommended">
+            <div class="l-wrapper in-recommended">
+              <h3 class="m-section-title in-recommended">Recommended for you</h3>
+              <div class="m-recommended-articles">
+                <div class="m-recommended-slider glide js-recommended-slider">
+                  <div class="glide__track" data-glide-el="track">
+                    <div class="glide__slides">
+                      
+    <div class="m-recommended-slider__item glide__slide">
+  <article class="m-article-card  post tag-projects">
+    <div class="m-article-card__picture">
+      <a href="../cs-based-projects/index.html" class="m-article-card__picture-link" aria-hidden="true" tabindex="-1"></a>
+        <img class="m-article-card__picture-background" src="../content/images/size/w600/2021/05/MAGNUM-2.png" loading="lazy" alt="">
+      <a href="http://localhost:2368/author/shreenabh/" class="m-article-card__author js-tooltip" aria-label="Shreenabh Agrawal" data-tippy-content="Posted by Shreenabh Agrawal ">
+          <div style="background-image: url(../assets/images/default-avatar-square-small.jpg?v=70061487e1);"></div>
+      </a>
+    </div>
+      <div class="m-article-card__info">
+        <a href="http://localhost:2368/tag/projects/" class="m-article-card__tag">Projects</a>
+      <a href="../cs-based-projects/index.html" class="m-article-card__info-link" aria-label="CS Projects">
+        <div>
+          <h2 class="m-article-card__title js-article-card-title " title="CS Projects">
+            CS Projects
+          </h2>
+        </div>
+        <div class="m-article-card__timestamp">
+          <span>6 months ago</span>
+          <span>&bull;</span>
+          <span>2 min read</span>
+        </div>
+      </a>
+    </div>
+  </article>
+    </div>
+                    </div>
+                  </div>
+                  <div data-glide-el="controls" class="glide__arrows js-controls">
+                    <button data-glide-dir="<" class="m-icon-button filled in-recommended-articles glide-prev" aria-label="Previous">
+                      <span class="icon-arrow-left" aria-hidden="true"></span>
+                    </button>
+                    <button data-glide-dir=">" class="m-icon-button filled in-recommended-articles glide-next" aria-label="Next">
+                      <span class="icon-arrow-right" aria-hidden="true"></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    </div>
+  </article>
+</main>
+
+
+
+    
+<div class="m-search js-search" role="dialog" aria-modal="true" aria-label="Search">
+  <button class="m-icon-button outlined as-close-search js-close-search" aria-label="Close search">
+    <span class="icon-close" aria-hidden="true"></span>
+  </button>
+  <div class="m-search__content">
+    <form class="m-search__form">
+      <div class="pos-relative">
+        <span class="icon-search m-search-icon" aria-hidden="true"></span>
+        <label for="search-input" class="sr-only">
+          Type to search
+        </label>
+        <input id="search-input" type="text" class="m-input in-search js-input-search" placeholder="Type to search">
+      </div>
+    </form>
+    <div class="js-search-results hide"></div>
+    <p class="m-not-found align-center hide js-no-results">
+      No results for your search, please try with something else.
+    </p>
+  </div>
+</div>
+
+    
+<footer class="m-footer">
+  <div class="m-footer__content">
+    <nav class="m-footer-social">
+        <a href="https://twitter.com/ShreenabhA" target="_blank" rel="noopener" aria-label="Twitter">
+          <span class="icon-twitter" aria-hidden="true"></span>
+        </a>
+      <a href="http://localhost:2368/rss" aria-label="RSS">
+        <span class="icon-rss" aria-hidden="true"></span>
+      </a>
+    </nav>
+    <p class="m-footer-copyright">
+      <span>Shreenabh Agrawal &copy; 2021</span>
+      <span>&nbsp; &bull; &nbsp;</span>
+      <span>Published with <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a></span>
+    </p>
+    <p class="m-footer-copyright jslicense">
+      <a href="../assets/html/javascript.html?v=70061487e1" rel="jslicense">JavaScript license information</a>
+    </p>
+  </div>
+</footer>
+
+    <div class="m-alert success subscribe js-alert" data-notification="subscribe">
+  Great! You&#x27;ve successfully subscribed.
+  <button class="m-alert__close js-notification-close" aria-label="Close">
+    <span class="icon-close"></span>
+  </button>
+</div>
+
+<div class="m-alert success signup js-alert" data-notification="signup">
+  Great! Next, complete checkout for full access.
+  <button class="m-alert__close js-notification-close" aria-label="Close">
+    <span class="icon-close"></span>
+  </button>
+</div>
+
+<div class="m-alert success signin js-alert" data-notification="signin">
+  Welcome back! You&#x27;ve successfully signed in.
+  <button class="m-alert__close js-notification-close" aria-label="Close">
+    <span class="icon-close"></span>
+  </button>
+</div>
+
+<div class="m-alert success checkout js-alert" data-notification="checkout">
+  Success! Your account is fully activated, you now have access to all content.
+  <button class="m-alert__close js-notification-close" aria-label="Close">
+    <span class="icon-close"></span>
+  </button>
+</div>
+    <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver%2CPromise%2CArray.prototype.includes%2CString.prototype.endsWith%2CString.prototype.startsWith%2CObject.assign%2CNodeList.prototype.forEach"></script>
+    <script defer src="../assets/js/manifest.js?v=70061487e1"></script>
+    <script defer src="../assets/js/vendor/content-api.min.js?v=70061487e1"></script>
+    <script defer src="../assets/js/vendor.js?v=70061487e1"></script>
+    <script defer src="../assets/js/app.js?v=70061487e1"></script>
+
+      <script defer src="../assets/js/post.js?v=70061487e1"></script>
+
+
+    
+  </body>
+</html>
